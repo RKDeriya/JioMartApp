@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace JM.Model
 {
-    public class Class1
+    public class Category : Base<DateTime, DateTime>
     {
+        public int CategoryId { get; set; }
+        public string CategoryName { get; set; }
     }
 }
