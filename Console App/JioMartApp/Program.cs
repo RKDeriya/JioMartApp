@@ -57,10 +57,17 @@ namespace JioMartApp
             CartDetailsCRUD ObjCartDetailsCRUD = new CartDetailsCRUD();
 
             //calling all cart method
-            ObjCartDetailsCRUD.InsertCartDetails();
+            //ObjCartDetailsCRUD.InsertCartDetails();
             //ObjCartDetailsCRUD.UpdateCartDetails();
             //ObjCartDetailsCRUD.GetCartDetails();
             //ObjCartDetailsCRUD.DeleteCartDetails();
+
+            //now for OrderDetails
+            OrderDetailsCRUD objOrderDetailsCRUD = new OrderDetailsCRUD();
+
+            objOrderDetailsCRUD.InsertOrderDetails();
+            objOrderDetailsCRUD.GetOrderDetails();
+            objOrderDetailsCRUD.UpdateOrderDetails();
             Console.ReadKey();
         }
     }
