@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace JM.DataAccess
 {
-    public class Class1
+    public class OrderDetails
     {
-        public int Id { get; set; }
-
     }
 }

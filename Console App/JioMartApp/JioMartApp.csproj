@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -48,6 +49,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JM.DataAccess\JM.DataAccess.csproj">
+      <Project>{0c4e1d75-6409-40dc-9a0e-f6d9a446cf00}</Project>
+      <Name>JM.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JM.Model\JM.Model.csproj">
+      <Project>{2daee4e8-86f3-4732-9c3c-1e72e693feb8}</Project>
+      <Name>JM.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
