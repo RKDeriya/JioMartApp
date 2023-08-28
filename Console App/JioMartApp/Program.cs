@@ -14,6 +14,7 @@ namespace JioMartApp
     {
         static void Main(string[] args)
         {
+
             UserDetailsCRUD objUserDetailsCRUD = new UserDetailsCRUD();
 
             //Just show the Generic and property
@@ -90,6 +91,7 @@ namespace JioMartApp
             //objOrderDetailsCRUD.GetOrderDetails();
             objOrderDetailsCRUD.UpdateOrderDetails();
             Console.ReadKey();
+
         }
     }
 }

@@ -32,7 +32,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+<<<<<<< HEAD
+=======
     <Reference Include="System.Configuration" />
+>>>>>>> 36f231eb82938bbf178556de9ade8eb9aa3a41e6
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
