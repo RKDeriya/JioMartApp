@@ -22,6 +22,7 @@ namespace JM.DataAccess
             //create command
             SqlCommand cmd = new SqlCommand(SpQuery, sqlconnection);
             cmd.CommandType = System.Data.CommandType.StoredProcedure;
+            
             cmd.Parameters.Add("@categoryId", SqlDbType.Int).Value = 0;
             cmd.Parameters.Add("@categoryName", SqlDbType.VarChar).Value = "Electronics";
             cmd.Parameters.Add("@opType", SqlDbType.VarChar).Value = "I";

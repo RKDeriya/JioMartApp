@@ -7,3 +7,12 @@ E:\Git Project JioMart\JioMartApp\Console App\JM.DataAccess\obj\Debug\JM.DataAcc
 E:\Git Project JioMart\JioMartApp\Console App\JM.DataAccess\obj\Debug\JM.DataAccess.csproj.CopyComplete
 E:\Git Project JioMart\JioMartApp\Console App\JM.DataAccess\obj\Debug\JM.DataAccess.dll
 E:\Git Project JioMart\JioMartApp\Console App\JM.DataAccess\obj\Debug\JM.DataAccess.pdb
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JM.DataAccess\bin\Debug\JM.DataAccess.dll
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JM.DataAccess\bin\Debug\JM.DataAccess.pdb
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JM.DataAccess\bin\Debug\JM.Model.dll
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JM.DataAccess\bin\Debug\JM.Model.pdb
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JM.DataAccess\obj\Debug\JM.DataAccess.csproj.AssemblyReference.cache
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JM.DataAccess\obj\Debug\JM.DataAccess.csproj.CoreCompileInputs.cache
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JM.DataAccess\obj\Debug\JM.DataAccess.csproj.CopyComplete
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JM.DataAccess\obj\Debug\JM.DataAccess.dll
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JM.DataAccess\obj\Debug\JM.DataAccess.pdb

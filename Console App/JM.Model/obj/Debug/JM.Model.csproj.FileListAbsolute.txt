@@ -4,3 +4,9 @@ E:\Git Project JioMart\JioMartApp\Console App\JM.Model\obj\Debug\JM.Model.csproj
 E:\Git Project JioMart\JioMartApp\Console App\JM.Model\obj\Debug\JM.Model.csproj.CoreCompileInputs.cache
 E:\Git Project JioMart\JioMartApp\Console App\JM.Model\obj\Debug\JM.Model.dll
 E:\Git Project JioMart\JioMartApp\Console App\JM.Model\obj\Debug\JM.Model.pdb
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JM.Model\obj\Debug\JM.Model.csproj.AssemblyReference.cache
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JM.Model\obj\Debug\JM.Model.csproj.CoreCompileInputs.cache
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JM.Model\obj\Debug\JM.Model.dll
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JM.Model\obj\Debug\JM.Model.pdb
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JM.Model\bin\Debug\JM.Model.dll
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JM.Model\bin\Debug\JM.Model.pdb

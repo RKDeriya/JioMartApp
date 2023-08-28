@@ -10,3 +10,15 @@ E:\Git Project JioMart\JioMartApp\Console App\JioMartApp\bin\Debug\JM.Model.dll
 E:\Git Project JioMart\JioMartApp\Console App\JioMartApp\bin\Debug\JM.DataAccess.pdb
 E:\Git Project JioMart\JioMartApp\Console App\JioMartApp\bin\Debug\JM.Model.pdb
 E:\Git Project JioMart\JioMartApp\Console App\JioMartApp\obj\Debug\JioMartApp.csproj.CopyComplete
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JioMartApp\obj\Debug\JioMartApp.csproj.AssemblyReference.cache
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JioMartApp\obj\Debug\JioMartApp.csproj.CoreCompileInputs.cache
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JioMartApp\obj\Debug\JioMartApp.exe
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JioMartApp\obj\Debug\JioMartApp.pdb
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JioMartApp\bin\Debug\JioMartApp.exe.config
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JioMartApp\bin\Debug\JioMartApp.exe
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JioMartApp\bin\Debug\JioMartApp.pdb
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JioMartApp\bin\Debug\JM.DataAccess.dll
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JioMartApp\bin\Debug\JM.Model.dll
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JioMartApp\bin\Debug\JM.DataAccess.pdb
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JioMartApp\bin\Debug\JM.Model.pdb
+D:\Git Project (JioMartApp)1\JioMartApp\Console App\JioMartApp\obj\Debug\JioMartApp.csproj.CopyComplete

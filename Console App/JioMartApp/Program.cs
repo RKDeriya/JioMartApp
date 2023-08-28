@@ -1,4 +1,5 @@
 ﻿using JM.DataAccess;
+using JM.Model;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -15,18 +16,27 @@ namespace JioMartApp
         {
             UserDetailsCRUD objUserDetailsCRUD = new UserDetailsCRUD();
 
-            //Insert user Details
-            //objUserDetailsCRUD.InsertUserDetails();
+            //Just show the Generic and property
+            //UserDetails objuserDetails = new UserDetails();
+            //objuserDetails.UserFirstName = "Rajesh";
+            //Console.WriteLine(objuserDetails.UserFirstName);
 
-            //update user details
-            //objUserDetailsCRUD.UpdateUserDetails();
+            //
+         
 
-            //Get user Details
-            //objUserDetailsCRUD.GetUserDetails();
 
-            //Delete user details
-            //objUserDetailsCRUD.DeleteUserDetails();
-            
+           //Insert user Details
+           
+
+           //update user details
+           //objUserDetailsCRUD.UpdateUserDetails();
+
+           //Get user Details
+           //objUserDetailsCRUD.GetUserDetails();
+
+           //Delete user details
+           //objUserDetailsCRUD.DeleteUserDetails();
+
 
            //Now for category
            CategoryCRUD objCategoryCRUD = new CategoryCRUD();
@@ -65,8 +75,19 @@ namespace JioMartApp
             //now for OrderDetails
             OrderDetailsCRUD objOrderDetailsCRUD = new OrderDetailsCRUD();
 
-            objOrderDetailsCRUD.InsertOrderDetails();
-            objOrderDetailsCRUD.GetOrderDetails();
+            //
+            /*OrderDetails neworderDetails = new OrderDetails
+            {
+                CartDetailsId = 11,
+                OrderPaymentMode = "UPI",
+                OrderTotalPrice = 100,
+                OrderDeliveryStatus = "Inp"
+            };
+
+            objOrderDetailsCRUD.InsertOrderDetails(neworderDetails);*/
+
+            //objOrderDetailsCRUD.InsertOrderDetails();
+            //objOrderDetailsCRUD.GetOrderDetails();
             objOrderDetailsCRUD.UpdateOrderDetails();
             Console.ReadKey();
         }

@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using JM.Model.Generic;
 
 namespace JM.Model
 {
-    public class ProductDetails
+    public class ProductDetails : Base<DateTime, DateTime>
     {
         public int ProducDetailsId { get; set; }
         public string ProductName { get; set; }

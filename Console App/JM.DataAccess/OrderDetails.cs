@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Security.Cryptography.X509Certificates;
-
+using JM.Model;
 namespace JM.DataAccess
 {
     public class OrderDetailsCRUD
     {
-        public void InsertOrderDetails()
+        /*public void InsertOrderDetails()
         {
             SqlConnection sqlconnection = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectwithJioMartDatabase"].ToString());
 
@@ -26,6 +26,32 @@ namespace JM.DataAccess
             cmd.Parameters.Add("@orderPaymentMode", SqlDbType.VarChar).Value = "UPI";
             cmd.Parameters.Add("@orderTotalPrice", SqlDbType.Float).Value = 0;
    
+            sqlconnection.Open();
+            cmd.ExecuteNonQuery();
+            sqlconnection.Close();
+            Console.WriteLine("Order details inserted successfully");
+        }
+        */
+        public void InsertOrderDetails(OrderDetails details)
+        {
+            SqlConnection sqlconnection = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectwithJioMartDatabase"].ToString());
+
+            //generate query
+            string SpQuery = "JioMart.InsertOrderDetails";
+
+            //create command
+            SqlCommand cmd = new SqlCommand(SpQuery, sqlconnection);
+            cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+            cmd.Parameters.AddWithValue("@cartDetailsId", details.CartDetailsId);
+            cmd.Parameters.AddWithValue("@orderPaymentMode", details.OrderPaymentMode);
+            cmd.Parameters.AddWithValue("@orderTotalPrice", details.OrderTotalPrice);
+            cmd.Parameters.AddWithValue("@orderdeliveryStatus", details.OrderDeliveryStatus);
+
+            //cmd.Parameters.Add("@cartDetailsId", SqlDbType.Int).Value = 12;
+            //cmd.Parameters.Add("@orderPaymentMode", SqlDbType.VarChar).Value = "UPI";
+            //cmd.Parameters.Add("@orderTotalPrice", SqlDbType.Float).Value = 0;
+
             sqlconnection.Open();
             cmd.ExecuteNonQuery();
             sqlconnection.Close();
@@ -53,11 +79,15 @@ namespace JM.DataAccess
         }
         public void UpdateOrderDetails()
         {
+            Console.WriteLine("Enter Order Id to update delivery status");
+            int id =Convert.ToInt32( Console.ReadLine());
+            
             SqlConnection sqlconnection = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectwithJioMartDatabase"].ToString());
             //generate query
-            string SpQuery = "Update JioMart.OrderDetails set OrderDeliverystatus = Delivered where OrderDetailsId = 1";
+            string SpQuery = "Update JioMart.OrderDetails set OrderDeliverystatus='Delivered' where OrderDetailsId = @id";
             SqlCommand cmd = new SqlCommand(SpQuery, sqlconnection);
-            cmd.Parameters.Add("@OrderDetailsId", SqlDbType.Int).Value = 1;
+            //cmd.Parameters.Add("@OrderDetailsId", SqlDbType.Int).Value = 1;
+            cmd.Parameters.AddWithValue("@id",id);
 
             sqlconnection.Open();
             cmd.ExecuteNonQuery();
