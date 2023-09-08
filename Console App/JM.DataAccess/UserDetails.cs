@@ -9,7 +9,7 @@ using System.Configuration;
 
 namespace JM.DataAccess
 {
-    public class UserDetailsCRUD
+    public class UserDetailsCRUD 
     {
         public void InsertUserDetails()
         {

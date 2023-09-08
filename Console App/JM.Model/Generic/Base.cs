@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace JM.Model.Generic
 {
-    public class Base<T, I>
+    public class Base<T,V>
     {
         public T CreatedOn { get; set; }
-        public I UpdatedOn { get; set; }
+        public V UpdatedOn { get; set; }
     }
 }
